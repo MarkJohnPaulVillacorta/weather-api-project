@@ -1,49 +1,53 @@
 
-### 📍 Endpoints Used
-- `/weather` – Fetch current weather by city
-- `/forecast` – Fetch 5-day weather forecast
-- `/weather?q={city}` – Search weather using city name
+## Table of Contents
+
+<details>
+
+   <summary>Contents</summary>
+
+1. [📘 Course Requirement](#-course-requirement)
+1. [👤 Student Information](#-student-information)
+1. [📌 Project Description](#-project-description)
+1. [🌐 API Information](#-api-information)
+   1. [🔗 API Source](#-api-source)
+   1. [🌍 Base URL](#-base-url)
+
+</details>
+# 🌦 Weather App – OpenWeather API
+
+## 📘 Course Requirement
+**Subject:** Elective 3  
+**Requirement:** Weather API Project  
+
+This project is submitted in partial fulfillment of the requirements for **Elective 3**.  
+It demonstrates real-world API integration, proper code organization, and front-end web development best practices.
 
 ---
 
-## 🔑 Authentication
-- **Authentication Type:** API Key  
-- The API key is stored in `config.js`
-- The actual API key is **not included** in the repository for security purposes
-- A placeholder value (`"YOUR_API_KEY_HERE"`) is used instead
+## 👤 Student Information
+- **Name:** MARK JOHN PAUL VILLACORTA  
+- **Course & Section:** 4-BSIT-D  
+- **Project Title:** Weather App (Weather API)
 
 ---
 
-## ⚙️ Features
-- Search weather by city name
-- Display temperature and humidity
+## 📌 Project Description
+The Weather App is a web-based application that fetches real-time weather data using the **OpenWeather API**.
+
+Users can search for any city to view:
+- Current temperature
+- Humidity
 - Weather condition icons
 - 5-day weather forecast
-- Automatic day/night theme
-- Input validation
-- Loading state display
-- Error handling
-- Responsive card-based layout
-- Save favorite cities using `localStorage` (Bonus feature)
+
+This project showcases the use of JavaScript `fetch()` with `async/await`, DOM manipulation, input validation, error handling, responsive design, and clean code organization.
 
 ---
 
-## 🚨 Error Handling
-The application properly handles the following cases:
-- Empty input fields
-- Invalid city names
-- Failed API requests
-- API authorization issues
-- Loading state during data fetching
+## 🌐 API Information
 
----
+### 🔗 API Source
+OpenWeather API  
+https://openweathermap.org/
 
-## ▶ How to Run the Project
-
-### Option 1: Open Directly in Browser
-1. Download or clone the repository
-2. Inside the project folder, create a file named `config.js`
-3. Add your OpenWeather API key:
-```js
-
-export const BASE_URL = "https://api.openweathermap.org/data/2.5";
+### 🌍 Base URL
