@@ -1,2 +1,3 @@
-export const API_KEY = "13f8ed08d8281acc4cbf3203dfd0fabb";
-export const BASE_URL = "https://api.openweathermap.org/data/2.5";
+export const API_KEY = "YOUR_API_KEY_HERE";
+export const BASE_URL = "YOUR_PROJECT_ID_HERE";
+
